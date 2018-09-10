@@ -69,11 +69,11 @@ class Alerter private constructor() {
      * @param titleId Title String Resource
      * @return This Alerter
      */
-    fun setTitle(@StringRes titleId: Int): Alerter {
-        alert?.setTitle(titleId)
-
-        return this
-    }
+//    fun setTitle(@StringRes titleId: Int): Alerter {
+//        alert?.setTitle(titleId)
+//
+//        return this
+//    }
 
     /**
      * Set Title of the Alert
@@ -81,11 +81,11 @@ class Alerter private constructor() {
      * @param title Title as a String
      * @return This Alerter
      */
-    fun setTitle(title: String): Alerter {
-        alert?.setTitle(title)
-
-        return this
-    }
+//    fun setTitle(title: String): Alerter {
+//        alert?.setTitle(title)
+//
+//        return this
+//    }
 
     /**
      * Set the Title's Typeface
@@ -93,11 +93,11 @@ class Alerter private constructor() {
      * @param typeface Typeface to use
      * @return This Alerter
      */
-    fun setTitleTypeface(typeface: Typeface): Alerter {
-        alert?.setTitleTypeface(typeface)
-
-        return this
-    }
+//    fun setTitleTypeface(typeface: Typeface): Alerter {
+//        alert?.setTitleTypeface(typeface)
+//
+//        return this
+//    }
 
     /**
      * Set the Title's text appearance
@@ -105,11 +105,11 @@ class Alerter private constructor() {
      * @param textAppearance The style resource id
      * @return This Alerter
      */
-    fun setTitleAppearance(@StyleRes textAppearance: Int): Alerter {
-        alert?.setTitleAppearance(textAppearance)
-
-        return this
-    }
+//    fun setTitleAppearance(@StyleRes textAppearance: Int): Alerter {
+//        alert?.setTitleAppearance(textAppearance)
+//
+//        return this
+//    }
 
     /**
      * Set Gravity of the Alert
@@ -117,11 +117,11 @@ class Alerter private constructor() {
      * @param gravity Gravity of Alert
      * @return This Alerter
      */
-    fun setContentGravity(gravity: Int): Alerter {
-        alert?.contentGravity = gravity
-
-        return this
-    }
+//    fun setContentGravity(gravity: Int): Alerter {
+//        alert?.contentGravity = gravity
+//
+//        return this
+//    }
 
     /**
      * Sets the Alert Text
@@ -129,11 +129,11 @@ class Alerter private constructor() {
      * @param textId Text String Resource
      * @return This Alerter
      */
-    fun setText(@StringRes textId: Int): Alerter {
-        alert?.setText(textId)
-
-        return this
-    }
+//    fun setText(@StringRes textId: Int): Alerter {
+//        alert?.setText(textId)
+//
+//        return this
+//    }
 
     /**
      * Sets the Alert Text
@@ -141,11 +141,11 @@ class Alerter private constructor() {
      * @param text String of Alert Text
      * @return This Alerter
      */
-    fun setText(text: String): Alerter {
-        alert?.setText(text)
-
-        return this
-    }
+//    fun setText(text: String): Alerter {
+//        alert?.setText(text)
+//
+//        return this
+//    }
 
     /**
      * Set the Text's Typeface
@@ -153,11 +153,11 @@ class Alerter private constructor() {
      * @param typeface Typeface to use
      * @return This Alerter
      */
-    fun setTextTypeface(typeface: Typeface): Alerter {
-        alert?.setTextTypeface(typeface)
-
-        return this
-    }
+//    fun setTextTypeface(typeface: Typeface): Alerter {
+//        alert?.setTextTypeface(typeface)
+//
+//        return this
+//    }
 
     /**
      * Set the Text's text appearance
@@ -165,11 +165,11 @@ class Alerter private constructor() {
      * @param textAppearance The style resource id
      * @return This Alerter
      */
-    fun setTextAppearance(@StyleRes textAppearance: Int): Alerter {
-        alert?.setTextAppearance(textAppearance)
-
-        return this
-    }
+//    fun setTextAppearance(@StyleRes textAppearance: Int): Alerter {
+//        alert?.setTextAppearance(textAppearance)
+//
+//        return this
+//    }
 
     /**
      * Set the Alert's Background Colour
@@ -241,6 +241,11 @@ class Alerter private constructor() {
      */
     fun setIcon(bitmap: Bitmap): Alerter {
         alert?.setIcon(bitmap)
+
+        return this
+    }
+    fun setImage(bitmap: Bitmap): Alerter {
+        alert?.setImage(bitmap)
 
         return this
     }
@@ -417,11 +422,11 @@ class Alerter private constructor() {
      *
      * @return This Alerter
      */
-    fun disableOutsideTouch(): Alerter {
-        alert?.disableOutsideTouch()
-
-        return this
-    }
+//    fun disableOutsideTouch(): Alerter {
+//        alert?.disableOutsideTouch()
+//
+//        return this
+//    }
 
     /**
      * Enable or disable progress bar
